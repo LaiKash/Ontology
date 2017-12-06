@@ -1,0 +1,17 @@
+digraph ar2dtool_diagram { 
+rankdir=LR;
+size="1501"
+node [shape = rectangle, color="orange"]; "http://www.semanticweb.es/group08/ontologyLibrary" "http://www.semanticweb.es/group08/ontologyActivity" ; /*classes style*/
+	"http://www.semanticweb.es/group08/ontologyActivity" -> "xsd:string" [ label = "vevent:dtstart" ];
+	"http://www.semanticweb.es/group08/ontologyActivity" -> "xsd:string" [ label = "vevent:dtend" ];
+	"http://www.semanticweb.es/group08/ontologyLibrary" -> "xsd:string" [ label = "vcard:hasEmail" ];
+	"http://www.semanticweb.es/group08/ontologyActivity" -> "xsd:string" [ label = "vcard:hasURL" ];
+	"http://www.semanticweb.es/group08/ontologyLibrary" -> "owl:Thing" [ label = "vcard:hasAddress" ];
+	"http://www.semanticweb.es/group08/ontologyActivity" -> "xsd:string" [ label = "vcard:hasFN" ];
+	"http://www.semanticweb.es/group08/ontologyActivity" -> "xsd:string" [ label = "vevent:byday" ];
+	"http://www.semanticweb.es/group08/ontologyActivity" -> "http://www.semanticweb.es/group08/ontologyLibrary" [ label = "vevent:location" ];
+	"http://www.semanticweb.es/group08/ontologyLibrary" -> "owl:Thing" [ label = "vcard:given-name" ];
+	"http://www.semanticweb.es/group08/ontologyLibrary" -> "xsd:string" [ label = "http://www.semanticweb.es/group08/ontologyhasSchedule" ];
+	"http://www.semanticweb.es/group08/ontologyLibrary" -> "owl:Thing" [ label = "vcard:hasTelephone" ];
+
+}

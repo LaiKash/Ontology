@@ -1,0 +1,17 @@
+digraph ar2dtool_diagram { 
+rankdir=LR;
+size="1501"
+node [shape = rectangle, color="orange"]; "base:Library" "base:Activity" ; /*classes style*/
+	"base:Activity" -> "xsd:string" [ label = "base:hasUrl" ];
+	"base:Library" -> "xsd:string" [ label = "base:hasTelephone" ];
+	"base:Library" -> "xsd:string" [ label = "base:hasSchedule" ];
+	"base:Activity" -> "xsd:string" [ label = "base:hasTitle" ];
+	"base:Activity" -> "xsd:string" [ label = "base:hasHour" ];
+	"base:Activity" -> "xsd:string" [ label = "base:dateEnd" ];
+	"base:Library" -> "xsd:string" [ label = "base:hasEmail" ];
+	"base:Activity" -> "base:Library" [ label = "base:inLibrary" ];
+	"base:Library" -> "xsd:string" [ label = "base:hasAddress" ];
+	"base:Activity" -> "xsd:string" [ label = "base:dateStart" ];
+	"base:Library" -> "xsd:string" [ label = "base:hasName" ];
+
+}

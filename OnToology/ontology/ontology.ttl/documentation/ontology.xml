@@ -1,0 +1,176 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.es/group08/ontology#"
+     xml:base="http://www.semanticweb.es/group08/ontology"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.es/group08/ontology"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://www.semanticweb.es/group08/ontology#inLibrary -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.es/group08/ontology#inLibrary">
+        <rdfs:domain rdf:resource="http://www.semanticweb.es/group08/ontology#Activity"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.es/group08/ontology#Library"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://www.semanticweb.es/group08/ontology#dateEnd -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.es/group08/ontology#dateEnd">
+        <rdfs:domain rdf:resource="http://www.semanticweb.es/group08/ontology#Activity"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.es/group08/ontology#dateStart -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.es/group08/ontology#dateStart">
+        <rdfs:domain rdf:resource="http://www.semanticweb.es/group08/ontology#Activity"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.es/group08/ontology#hasAddress -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.es/group08/ontology#hasAddress">
+        <rdfs:domain rdf:resource="http://www.semanticweb.es/group08/ontology#Library"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.es/group08/ontology#hasEmail -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.es/group08/ontology#hasEmail">
+        <rdfs:domain rdf:resource="http://www.semanticweb.es/group08/ontology#Library"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.es/group08/ontology#hasHour -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.es/group08/ontology#hasHour">
+        <rdfs:domain rdf:resource="http://www.semanticweb.es/group08/ontology#Activity"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.es/group08/ontology#hasName -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.es/group08/ontology#hasName">
+        <rdfs:domain rdf:resource="http://www.semanticweb.es/group08/ontology#Library"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.es/group08/ontology#hasSchedule -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.es/group08/ontology#hasSchedule">
+        <rdfs:domain rdf:resource="http://www.semanticweb.es/group08/ontology#Library"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.es/group08/ontology#hasTelephone -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.es/group08/ontology#hasTelephone">
+        <rdfs:domain rdf:resource="http://www.semanticweb.es/group08/ontology#Library"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.es/group08/ontology#hasTitle -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.es/group08/ontology#hasTitle">
+        <rdfs:domain rdf:resource="http://www.semanticweb.es/group08/ontology#Activity"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.es/group08/ontology#hasUrl -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.es/group08/ontology#hasUrl">
+        <rdfs:domain rdf:resource="http://www.semanticweb.es/group08/ontology#Activity"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://www.semanticweb.es/group08/ontology#Activity -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.es/group08/ontology#Activity"/>
+    
+
+
+    <!-- http://www.semanticweb.es/group08/ontology#Library -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.es/group08/ontology#Library"/>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 5.1.0) https://github.com/owlcs/owlapi/ -->
+
+
