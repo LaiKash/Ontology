@@ -26,8 +26,8 @@
 
 
     <owl:ObjectProperty rdf:about="http://www.w3.org/2002/12/cal#location">
-        <rdfs:domain rdf:resource="http://www.semanticweb.es/group08/ontologyActivity"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.es/group08/ontologyLibrary"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.es/group08/ontology#Activity"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.es/group08/ontology#Library"/>
     </owl:ObjectProperty>
     
 
@@ -44,11 +44,11 @@
     
 
 
-    <!-- http://www.semanticweb.es/group08/ontologyhasSchedule -->
+    <!-- http://www.semanticweb.es/group08/ontology#hasSchedule -->
 
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.es/group08/ontologyhasSchedule">
-        <rdfs:domain rdf:resource="http://www.semanticweb.es/group08/ontologyLibrary"/>
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.es/group08/ontology#hasSchedule">
+        <rdfs:domain rdf:resource="http://www.semanticweb.es/group08/ontology#Library"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </owl:DatatypeProperty>
     
@@ -58,7 +58,7 @@
 
 
     <owl:DatatypeProperty rdf:about="http://www.w3.org/2002/12/cal#byday">
-        <rdfs:domain rdf:resource="http://www.semanticweb.es/group08/ontologyActivity"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.es/group08/ontology#Activity"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </owl:DatatypeProperty>
     
@@ -68,7 +68,7 @@
 
 
     <owl:DatatypeProperty rdf:about="http://www.w3.org/2002/12/cal#dtend">
-        <rdfs:domain rdf:resource="http://www.semanticweb.es/group08/ontologyActivity"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.es/group08/ontology#Activity"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </owl:DatatypeProperty>
     
@@ -78,7 +78,7 @@
 
 
     <owl:DatatypeProperty rdf:about="http://www.w3.org/2002/12/cal#dtstart">
-        <rdfs:domain rdf:resource="http://www.semanticweb.es/group08/ontologyActivity"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.es/group08/ontology#Activity"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </owl:DatatypeProperty>
     
@@ -88,7 +88,7 @@
 
 
     <owl:DatatypeProperty rdf:about="http://www.w3.org/2006/vcard/ns#given-name">
-        <rdfs:domain rdf:resource="http://www.semanticweb.es/group08/ontologyLibrary"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.es/group08/ontology#Library"/>
     </owl:DatatypeProperty>
     
 
@@ -97,7 +97,7 @@
 
 
     <owl:DatatypeProperty rdf:about="http://www.w3.org/2006/vcard/ns#hasAddress">
-        <rdfs:domain rdf:resource="http://www.semanticweb.es/group08/ontologyLibrary"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.es/group08/ontology#Library"/>
     </owl:DatatypeProperty>
     
 
@@ -106,7 +106,7 @@
 
 
     <owl:DatatypeProperty rdf:about="http://www.w3.org/2006/vcard/ns#hasEmail">
-        <rdfs:domain rdf:resource="http://www.semanticweb.es/group08/ontologyLibrary"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.es/group08/ontology#Library"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </owl:DatatypeProperty>
     
@@ -116,7 +116,7 @@
 
 
     <owl:DatatypeProperty rdf:about="http://www.w3.org/2006/vcard/ns#hasFN">
-        <rdfs:domain rdf:resource="http://www.semanticweb.es/group08/ontologyActivity"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.es/group08/ontology#Activity"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </owl:DatatypeProperty>
     
@@ -126,7 +126,7 @@
 
 
     <owl:DatatypeProperty rdf:about="http://www.w3.org/2006/vcard/ns#hasTelephone">
-        <rdfs:domain rdf:resource="http://www.semanticweb.es/group08/ontologyLibrary"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.es/group08/ontology#Library"/>
     </owl:DatatypeProperty>
     
 
@@ -135,7 +135,7 @@
 
 
     <owl:DatatypeProperty rdf:about="http://www.w3.org/2006/vcard/ns#hasURL">
-        <rdfs:domain rdf:resource="http://www.semanticweb.es/group08/ontologyActivity"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.es/group08/ontology#Activity"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </owl:DatatypeProperty>
     
@@ -153,17 +153,17 @@
     
 
 
-    <!-- http://www.semanticweb.es/group08/ontologyActivity -->
+    <!-- http://www.semanticweb.es/group08/ontology#Activity -->
 
 
-    <owl:Class rdf:about="http://www.semanticweb.es/group08/ontologyActivity"/>
+    <owl:Class rdf:about="http://www.semanticweb.es/group08/ontology#Activity"/>
     
 
 
-    <!-- http://www.semanticweb.es/group08/ontologyLibrary -->
+    <!-- http://www.semanticweb.es/group08/ontology#Library -->
 
 
-    <owl:Class rdf:about="http://www.semanticweb.es/group08/ontologyLibrary"/>
+    <owl:Class rdf:about="http://www.semanticweb.es/group08/ontology#Library"/>
 </rdf:RDF>
 
 

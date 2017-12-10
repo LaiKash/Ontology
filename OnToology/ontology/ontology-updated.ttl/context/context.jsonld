@@ -10,9 +10,8 @@
     "hasTelephone" : {
       "@id" : "http://www.w3.org/2006/vcard/ns#hasTelephone"
     },
-    "ontologyhasSchedule" : {
-      "@id" : "http://www.semanticweb.es/group08/ontologyhasSchedule",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    "Activity" : {
+      "@id" : "http://www.semanticweb.es/group08/ontology#Activity"
     },
     "hasURL" : {
       "@id" : "http://www.w3.org/2006/vcard/ns#hasURL",
@@ -22,12 +21,12 @@
       "@id" : "http://www.w3.org/2002/12/cal#location",
       "@type" : "@id"
     },
+    "Library" : {
+      "@id" : "http://www.semanticweb.es/group08/ontology#Library"
+    },
     "dtend" : {
       "@id" : "http://www.w3.org/2002/12/cal#dtend",
       "@type" : "http://www.w3.org/2001/XMLSchema#string"
-    },
-    "ontologyLibrary" : {
-      "@id" : "http://www.semanticweb.es/group08/ontologyLibrary"
     },
     "given-name" : {
       "@id" : "http://www.w3.org/2006/vcard/ns#given-name"
@@ -40,12 +39,13 @@
       "@id" : "http://www.w3.org/2002/12/cal#byday",
       "@type" : "http://www.w3.org/2001/XMLSchema#string"
     },
+    "hasSchedule" : {
+      "@id" : "http://www.semanticweb.es/group08/ontology#hasSchedule",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
     "dtstart" : {
       "@id" : "http://www.w3.org/2002/12/cal#dtstart",
       "@type" : "http://www.w3.org/2001/XMLSchema#string"
-    },
-    "ontologyActivity" : {
-      "@id" : "http://www.semanticweb.es/group08/ontologyActivity"
     }
   }
 }

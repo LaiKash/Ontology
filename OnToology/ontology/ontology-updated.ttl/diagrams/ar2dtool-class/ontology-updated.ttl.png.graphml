@@ -6,13 +6,13 @@
    <key attr.name="description" attr.type="string" for="edge" id="d3" />
    <key for="graphml" id="d4" yfiles.type="resources" />
    <graph edgedefault="directed" id="G" parse.edges="11" parse.nodes="4" parse.order="free">
-      <node id="nid_http://www.semanticweb.es/group08/ontologyActivity">
+      <node id="nid_base:Activity">
          <data key="d0">
             <y:ShapeNode>
-               <y:Geometry height="30.0" width="500.0" x="0.0" y="0.0" />
+               <y:Geometry height="30.0" width="130.0" x="0.0" y="0.0" />
                <y:Fill color="#FFA500" transparent="false" />
                <y:BorderStyle color="#000000" type="line" width="1.0" />
-               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">http://www.semanticweb.es/group08/ontologyActivity</y:NodeLabel>
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">base:Activity</y:NodeLabel>
                <y:Shape type="rectangle" />
             </y:ShapeNode>
          </data>
@@ -30,7 +30,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_vevent:dtstart0" source="nid_http://www.semanticweb.es/group08/ontologyActivity" target="nid_xsd:string">
+    <edge id="eid_vevent:dtstart0" source="nid_base:Activity" target="nid_xsd:string">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -41,7 +41,30 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_vevent:dtend1" source="nid_http://www.semanticweb.es/group08/ontologyActivity" target="nid_xsd:string">
+      <node id="nid_base:Library">
+         <data key="d0">
+            <y:ShapeNode>
+               <y:Geometry height="30.0" width="120.0" x="0.0" y="0.0" />
+               <y:Fill color="#FFA500" transparent="false" />
+               <y:BorderStyle color="#000000" type="line" width="1.0" />
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">base:Library</y:NodeLabel>
+               <y:Shape type="rectangle" />
+            </y:ShapeNode>
+         </data>
+         <data key="d1" />
+      </node>
+    <edge id="eid_base:hasSchedule1" source="nid_base:Library" target="nid_xsd:string">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">base:hasSchedule</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+    <edge id="eid_vevent:dtend2" source="nid_base:Activity" target="nid_xsd:string">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -52,19 +75,7 @@
          </data>
          <data key="d3" />
       </edge>
-      <node id="nid_http://www.semanticweb.es/group08/ontologyLibrary">
-         <data key="d0">
-            <y:ShapeNode>
-               <y:Geometry height="30.0" width="490.0" x="0.0" y="0.0" />
-               <y:Fill color="#FFA500" transparent="false" />
-               <y:BorderStyle color="#000000" type="line" width="1.0" />
-               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">http://www.semanticweb.es/group08/ontologyLibrary</y:NodeLabel>
-               <y:Shape type="rectangle" />
-            </y:ShapeNode>
-         </data>
-         <data key="d1" />
-      </node>
-    <edge id="eid_vcard:hasEmail2" source="nid_http://www.semanticweb.es/group08/ontologyLibrary" target="nid_xsd:string">
+    <edge id="eid_vcard:hasEmail3" source="nid_base:Library" target="nid_xsd:string">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -75,7 +86,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_vcard:hasURL3" source="nid_http://www.semanticweb.es/group08/ontologyActivity" target="nid_xsd:string">
+    <edge id="eid_vcard:hasURL4" source="nid_base:Activity" target="nid_xsd:string">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -98,7 +109,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_vcard:hasAddress4" source="nid_http://www.semanticweb.es/group08/ontologyLibrary" target="nid_owl:Thing">
+    <edge id="eid_vcard:hasAddress5" source="nid_base:Library" target="nid_owl:Thing">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -109,7 +120,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_vcard:hasFN5" source="nid_http://www.semanticweb.es/group08/ontologyActivity" target="nid_xsd:string">
+    <edge id="eid_vcard:hasFN6" source="nid_base:Activity" target="nid_xsd:string">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -120,7 +131,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_vevent:byday6" source="nid_http://www.semanticweb.es/group08/ontologyActivity" target="nid_xsd:string">
+    <edge id="eid_vevent:byday7" source="nid_base:Activity" target="nid_xsd:string">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -131,7 +142,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_vevent:location7" source="nid_http://www.semanticweb.es/group08/ontologyActivity" target="nid_http://www.semanticweb.es/group08/ontologyLibrary">
+    <edge id="eid_vevent:location8" source="nid_base:Activity" target="nid_base:Library">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -142,7 +153,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_vcard:given-name8" source="nid_http://www.semanticweb.es/group08/ontologyLibrary" target="nid_owl:Thing">
+    <edge id="eid_vcard:given-name9" source="nid_base:Library" target="nid_owl:Thing">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -153,18 +164,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_http://www.semanticweb.es/group08/ontologyhasSchedule9" source="nid_http://www.semanticweb.es/group08/ontologyLibrary" target="nid_xsd:string">
-         <data key="d2">
-            <y:PolyLineEdge>
-               <y:LineStyle color="black" type="line" width="1.0" />
-               <y:Arrows source="none" target="normal" />
-               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">http://www.semanticweb.es/group08/ontologyhasSchedule</y:EdgeLabel>
-               <y:BendStyle smoothed="false" />
-            </y:PolyLineEdge>
-         </data>
-         <data key="d3" />
-      </edge>
-    <edge id="eid_vcard:hasTelephone10" source="nid_http://www.semanticweb.es/group08/ontologyLibrary" target="nid_owl:Thing">
+    <edge id="eid_vcard:hasTelephone10" source="nid_base:Library" target="nid_owl:Thing">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
