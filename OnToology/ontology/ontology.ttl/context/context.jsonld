@@ -1,0 +1,54 @@
+{
+  "@context" : {
+    "hasUrl" : {
+      "@id" : "http://www.semanticweb.es/group08/ontology#hasUrl",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "hasTitle" : {
+      "@id" : "http://www.semanticweb.es/group08/ontology#hasTitle",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "hasEmail" : {
+      "@id" : "http://www.semanticweb.es/group08/ontology#hasEmail",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "dateEnd" : {
+      "@id" : "http://www.semanticweb.es/group08/ontology#dateEnd",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "hasName" : {
+      "@id" : "http://www.semanticweb.es/group08/ontology#hasName",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "dateStart" : {
+      "@id" : "http://www.semanticweb.es/group08/ontology#dateStart",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "hasAddress" : {
+      "@id" : "http://www.semanticweb.es/group08/ontology#hasAddress",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "hasTelephone" : {
+      "@id" : "http://www.semanticweb.es/group08/ontology#hasTelephone",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "Activity" : {
+      "@id" : "http://www.semanticweb.es/group08/ontology#Activity"
+    },
+    "hasHour" : {
+      "@id" : "http://www.semanticweb.es/group08/ontology#hasHour",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "Library" : {
+      "@id" : "http://www.semanticweb.es/group08/ontology#Library"
+    },
+    "inLibrary" : {
+      "@id" : "http://www.semanticweb.es/group08/ontology#inLibrary",
+      "@type" : "@id"
+    },
+    "hasSchedule" : {
+      "@id" : "http://www.semanticweb.es/group08/ontology#hasSchedule",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    }
+  }
+}

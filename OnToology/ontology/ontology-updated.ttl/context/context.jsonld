@@ -1,0 +1,51 @@
+{
+  "@context" : {
+    "hasEmail" : {
+      "@id" : "http://www.w3.org/2006/vcard/ns#hasEmail",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "hasAddress" : {
+      "@id" : "http://www.w3.org/2006/vcard/ns#hasAddress"
+    },
+    "hasTelephone" : {
+      "@id" : "http://www.w3.org/2006/vcard/ns#hasTelephone"
+    },
+    "ontologyhasSchedule" : {
+      "@id" : "http://www.semanticweb.es/group08/ontologyhasSchedule",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "hasURL" : {
+      "@id" : "http://www.w3.org/2006/vcard/ns#hasURL",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "location" : {
+      "@id" : "http://www.w3.org/2002/12/cal#location",
+      "@type" : "@id"
+    },
+    "dtend" : {
+      "@id" : "http://www.w3.org/2002/12/cal#dtend",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "ontologyLibrary" : {
+      "@id" : "http://www.semanticweb.es/group08/ontologyLibrary"
+    },
+    "given-name" : {
+      "@id" : "http://www.w3.org/2006/vcard/ns#given-name"
+    },
+    "hasFN" : {
+      "@id" : "http://www.w3.org/2006/vcard/ns#hasFN",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "byday" : {
+      "@id" : "http://www.w3.org/2002/12/cal#byday",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "dtstart" : {
+      "@id" : "http://www.w3.org/2002/12/cal#dtstart",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "ontologyActivity" : {
+      "@id" : "http://www.semanticweb.es/group08/ontologyActivity"
+    }
+  }
+}

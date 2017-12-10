@@ -1,0 +1,87 @@
+<http://www.semanticweb.es/group08/ontology> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+# 
+# 
+# #################################################################
+# #
+# #    Object Properties
+# #
+# #################################################################
+# 
+# 
+# http://www.w3.org/2002/12/cal#location
+<http://www.w3.org/2002/12/cal#location> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3.org/2002/12/cal#location> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.es/group08/ontologyActivity> .
+<http://www.w3.org/2002/12/cal#location> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.es/group08/ontologyLibrary> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Data properties
+# #
+# #################################################################
+# 
+# 
+# http://www.semanticweb.es/group08/ontologyhasSchedule
+<http://www.semanticweb.es/group08/ontologyhasSchedule> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.es/group08/ontologyhasSchedule> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.es/group08/ontologyLibrary> .
+<http://www.semanticweb.es/group08/ontologyhasSchedule> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# http://www.w3.org/2002/12/cal#byday
+<http://www.w3.org/2002/12/cal#byday> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.w3.org/2002/12/cal#byday> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.es/group08/ontologyActivity> .
+<http://www.w3.org/2002/12/cal#byday> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# http://www.w3.org/2002/12/cal#dtend
+<http://www.w3.org/2002/12/cal#dtend> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.w3.org/2002/12/cal#dtend> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.es/group08/ontologyActivity> .
+<http://www.w3.org/2002/12/cal#dtend> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# http://www.w3.org/2002/12/cal#dtstart
+<http://www.w3.org/2002/12/cal#dtstart> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.w3.org/2002/12/cal#dtstart> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.es/group08/ontologyActivity> .
+<http://www.w3.org/2002/12/cal#dtstart> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# http://www.w3.org/2006/vcard/ns#given-name
+<http://www.w3.org/2006/vcard/ns#given-name> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.w3.org/2006/vcard/ns#given-name> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.es/group08/ontologyLibrary> .
+# 
+# http://www.w3.org/2006/vcard/ns#hasAddress
+<http://www.w3.org/2006/vcard/ns#hasAddress> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.w3.org/2006/vcard/ns#hasAddress> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.es/group08/ontologyLibrary> .
+# 
+# http://www.w3.org/2006/vcard/ns#hasEmail
+<http://www.w3.org/2006/vcard/ns#hasEmail> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.w3.org/2006/vcard/ns#hasEmail> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.es/group08/ontologyLibrary> .
+<http://www.w3.org/2006/vcard/ns#hasEmail> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# http://www.w3.org/2006/vcard/ns#hasFN
+<http://www.w3.org/2006/vcard/ns#hasFN> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.w3.org/2006/vcard/ns#hasFN> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.es/group08/ontologyActivity> .
+<http://www.w3.org/2006/vcard/ns#hasFN> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# http://www.w3.org/2006/vcard/ns#hasTelephone
+<http://www.w3.org/2006/vcard/ns#hasTelephone> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.w3.org/2006/vcard/ns#hasTelephone> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.es/group08/ontologyLibrary> .
+# 
+# http://www.w3.org/2006/vcard/ns#hasURL
+<http://www.w3.org/2006/vcard/ns#hasURL> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.w3.org/2006/vcard/ns#hasURL> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.es/group08/ontologyActivity> .
+<http://www.w3.org/2006/vcard/ns#hasURL> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# http://www.semanticweb.es/group08/ontologyActivity
+<http://www.semanticweb.es/group08/ontologyActivity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://www.semanticweb.es/group08/ontologyLibrary
+<http://www.semanticweb.es/group08/ontologyLibrary> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# Generated by the OWL API (version 5.1.0) https://github.com/owlcs/owlapi/
