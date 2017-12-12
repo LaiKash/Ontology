@@ -10,9 +10,9 @@
 
 <http://www.semanticweb.es/group08/ontology> rdf:type owl:Ontology .
 
-##################################################################
-#    Object Properties
-#################################################################
+###################################################################
+# #   Object Properties
+####################################################################
 
 ###  http://www.w3.org/2002/12/cal#location
 vevent:location rdf:type owl:ObjectProperty ;
