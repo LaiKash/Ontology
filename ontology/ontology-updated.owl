@@ -1,4 +1,4 @@
-@prefix : <http://www.semanticweb.es/group08/ontology#> .
+@prefix : <http://www.semanticweb.es/group08/ontology> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
@@ -6,13 +6,13 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
 @prefix vevent: <http://www.w3.org/2002/12/cal#> .
-@base <http://www.semanticweb.es/group08/ontology#> .
+@base <http://www.semanticweb.es/group08/ontology> .
 
 <http://www.semanticweb.es/group08/ontology> rdf:type owl:Ontology .
 
-###################################################################
-# #   Object Properties
-####################################################################
+#################################################################
+#    Object Properties
+#################################################################
 
 ###  http://www.w3.org/2002/12/cal#location
 vevent:location rdf:type owl:ObjectProperty ;
@@ -85,11 +85,11 @@ vcard:hasURL rdf:type owl:DatatypeProperty ;
 #    Classes
 #################################################################
 
-###  http://www.semanticweb.es/group08/ontology#activity
+###  http://www.semanticweb.es/group08/ontology#Activity
 :Activity rdf:type owl:Class .
 
 
-###  http://www.semanticweb.es/group08/ontology#library
+###  http://www.semanticweb.es/group08/ontology#Library
 :Library rdf:type owl:Class .
 
 
